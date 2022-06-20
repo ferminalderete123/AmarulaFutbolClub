@@ -433,6 +433,7 @@ p{
     .cabeza{
           
         padding: 10px;
+        height: 150px;
     
     }
     .noticias{
@@ -476,7 +477,8 @@ p{
     .cabeza2{
         
         justify-content: center;
-        padding: 10px;         
+        padding: 10px;
+        height: 150px;         
     
     }
     .cuerpo__compras{
@@ -500,6 +502,7 @@ p{
     }
     .cabeza3{
         padding: 10px;
+        height: 150px; 
     }
     .plantel3{
         background-size: 700px;
