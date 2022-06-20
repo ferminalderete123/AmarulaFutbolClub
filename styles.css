@@ -94,12 +94,15 @@ right: 0px;
     animation-iteration-count: infinite;
     height: 400px;
     background-repeat: no-repeat;
-    background-position-x: center;
-    
-    
+    background-position-x: center;   
     
     
 }
+#tamañoLogo{
+    width: 30px;
+}
+
+
 .noticias{
     border: 01px solid black;
     margin-top: 20px;
