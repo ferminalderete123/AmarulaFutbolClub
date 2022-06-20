@@ -13,12 +13,13 @@
     justify-content: space-between;
     align-items: center;
     background-color: #e6b259;
-    height: 115px;
+    height: 90px;
     
     
 }
 .cabeza__logo img{
     height: 100px;
+    padding-top: 20px;
     width: auto;
     cursor: pointer;
     transition: all 0.3s;
@@ -88,6 +89,16 @@ right: 0px;
     border: 2px solid #ffad33;
     grid-column: 1/5;
     grid-row: 3/5;
+    animation-name: carrusel;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+    
+    
 }
 .noticias{
     border: 01px solid black;
@@ -124,9 +135,11 @@ right: 0px;
     padding: 20px;
     background-color: #e6b259;
     
+    
 }
 .pie__listas{
     list-style: none;
+    
     
     
 }
@@ -150,7 +163,32 @@ right: 0px;
 .pie__listas :hover{
     transform: scale(1.1);
 }
+input{
+    border: 03px solid black;
+    
+}
+#degrade{
+    background-image: linear-gradient(to right, #e1a337, #ebc27a, #eecc90, #f2d6a6); 
 
+}
+#boton{
+    font-size: 15px;
+    background-image: linear-gradient(to right, #e1a337, #e6b259, #ebc27a, #eecc90, #f2d6a6);
+    
+}
+@keyframes carrusel {       
+    0% {background-image: url(./imagenes/camiseta.jpeg);}
+    40% {background-image: url(./imagenes/capitan.jpeg);}
+    50% {background-image: url(./imagenes/fercha.jpeg);}
+    60% {background-image: url(./imagenes/tomandoagua.jpeg);}
+    80% {background-image: url(./imagenes/plantel\ wp.jpg);} 
+    100% {background-image: url(./imagenes/equipo.png);} 
+    
+    
+    
+
+    
+}
 .formulario{
     color: black;
     border: solid 4px;   
@@ -218,7 +256,8 @@ right: 0px;
         background-color: #e6b259;
         height: 115px;
         grid-column: 1/5;
-        ;
+        height: 90px;
+        
 }
 .fotoHistorias2{
     grid-column: 1;    
@@ -260,7 +299,7 @@ color: #e6f0ec;
     justify-content: space-between;
     align-items: center;
     background-color: #e6b259;
-    height: 115px;
+    height: 90px
 
 }
 .plantel3{
@@ -305,11 +344,13 @@ color: #e6f0ec;
     border: 01px solid black;
      overflow-y: auto;
      height: 450px;
+     text-align: center;
     
 }
 .entradas4{
     grid-column: 3/5;
     border: 01px solid black;
+    text-align: center;
     
 }
 .cuerpo__tablas img{
