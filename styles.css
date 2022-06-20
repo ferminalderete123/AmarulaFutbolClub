@@ -433,11 +433,7 @@ p{
     .cabeza{
           
         padding: 10px;
-<<<<<<< HEAD
-        
-=======
         height: 150px;
->>>>>>> animaciones
     
     }
     .noticias{
@@ -471,7 +467,7 @@ p{
     .cuerpo__grid2{
         display: flex;
         flex-direction: column;
-        height: auto;
+        height: auto
         
     }
     .fotoHistorias2{
@@ -482,7 +478,7 @@ p{
         
         justify-content: center;
         padding: 10px;
-        height: 150px;         
+                 
     
     }
     .cuerpo__compras{
@@ -506,7 +502,6 @@ p{
     }
     .cabeza3{
         padding: 10px;
-        height: 150px; 
     }
     .plantel3{
         background-size: 700px;
