@@ -4,25 +4,47 @@
     font-family: 'Open Sans', sans-serif;
     
 }
-
-
 .logo{
     width: 100px;
+}
+
+
+ul :hover {
+    transform: scale(1.1);
+    
+
+}
+ul li a:hover{
+    color: #e6f0ec;
+    transition: all 0.0s;
+
+}
+    
+
+li{
+    padding: 15px;
     
 }
 
+    
+
+
 #navegador{
     height: 100px;
-   
+    background-color:#e6b259;
+    font-size: 20px;
+       
     
 }
 
 
 #tituloPag{
-    background-color:#000000 ;
+    background-color: #000000;
     color:#e6f0ec ;
-}
+    height: auto;
+    
 
+}
 
 
 
@@ -217,8 +239,7 @@ input{
 .formulario{
     color: black;
     border: solid 4px;   
-    width: 730px;
-    height: 500px;
+   
     padding-left: 4px;
     padding-top: 4px;
     background-image:url(./imagenes/formularioo.webp);

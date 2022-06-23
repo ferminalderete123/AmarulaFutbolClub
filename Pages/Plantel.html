@@ -10,30 +10,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 
 </head>
 <body class="cuerpo">
-    <div class="cuerpo__grid3">
-        <header class="cabeza3">
-            <div class="cabeza__logo"> <a href="../Inicio.html">
-                <img class="img" src="./../imagenes/logo2.png" alt="amarula" title="logo">
-                </a>
-            </div>   
-        
-            <nav class="cabeza__navbar">
-                <ul class="cabeza__listas">
-                    <li><a href="../Inicio.html">Inicio</a></li>
-                    <li><a href="Historia.html">Historia</a></li>
-                    <li><a href="Plantel.html">Plantel</a></li>
-                    <li><a href="Tienda.html">Tienda</a></li>
-                    <li><a href="Contacto.html">Contacto</a></li>
-                </ul>
-            </nav>  
-        </header>
-
-        <section class="titulo">
-            <H1> Plantel Temporada 2022</H1>
-        </section>      
+       <nav id="navegador" class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../Inicio.html"><img class="logo" src="../imagenes/logo2.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Inicio.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/Historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Plantel.html">Plantel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <h1 id="tituloPag" class="h2 text-center ">Plantel</h1>
+      </section>
    
         <section class="plantel3" id="fotoFondo">
             <ol>
@@ -115,7 +126,12 @@
             <img id="logoCompras" src="./../imagenes/carrito de compras.png" alt="compras"  title="compras">
             </a>
     </div>
-    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
