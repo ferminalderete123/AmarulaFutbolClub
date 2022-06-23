@@ -2,7 +2,29 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    
 }
+
+
+.logo{
+    width: 100px;
+    
+}
+
+#navegador{
+    height: 100px;
+   
+    
+}
+
+
+#tituloPag{
+    background-color:#000000 ;
+    color:#e6f0ec ;
+}
+
+
+
 
 .cuerpo{
     background-color: #e6f0ec;    
@@ -273,6 +295,7 @@ input{
     justify-content: end;
     padding: 20px;
     background-color: #e6b259;
+    height: 80px;
 }
 .historia2{
     grid-column: 2;
