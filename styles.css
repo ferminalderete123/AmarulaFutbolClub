@@ -348,15 +348,18 @@ color: #e6f0ec;
     height: 90px
 
 }
+
+
+
+
 .plantel3{
-    grid-column: 1/2;
+   
     border: 01px solid black;
     padding-left: 40px;
-   background-image: url(./imagenes/plantel\ 2.jpeg);
+   
    background-repeat: no-repeat;
    background-size: 400px;
-   color: white
-    
+   color: black    
     
 }
 
@@ -374,10 +377,9 @@ color: #e6f0ec;
     background-repeat: no-repeat;
 
 }
-.fotoCancha{
-    padding-left: 200px;
-    width: 300px;
-}
+
+    
+
     
 .cuerpo__grid4{
     display: grid;
@@ -453,7 +455,7 @@ p{
 #posicion{
     font-weight: bold;
     font-size: 30px;
-    color: black;
+    
 }    
 
 #marcas{
@@ -565,7 +567,7 @@ background-size: 300px;
     font-size: 20px;
 }
 #frasePlantel{
-    padding-left: 20px;
+    padding-left: 280px;
     text-align: center;
     
 
