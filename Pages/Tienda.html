@@ -10,129 +10,156 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 
 </head>
 <body class="cuerpo">
- <div class="cuerpo__grid4">
-    <header class="cabeza">
-        <div class="cabeza__logo"> <a href="../Inicio.html">
-            <img class="img" src="./../imagenes/logo2.png" alt="amarula" title="logo">
-            </a>
-        </div> 
-        
-        
-        <nav class="cabeza__navbar">
-            <ul class="cabeza__listas">
-                <li><a href="../Inicio.html">Inicio</a></li>
-                <li><a href="Historia.html">Historia</a></li>
-                <li><a href="Plantel.html">Plantel</a></li>
-                <li><a href="Tienda.html">Tienda</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
+    <nav id="navegador" class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../Inicio.html"><img class="logo" src="../imagenes/logo2.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Inicio.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/Historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Plantel.html">Plantel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
-    
-    </header>
-    <section class="titulo">
-        <h1 class="cabeza__titulo">Merchandising</h1>
-    </section>
-
-    <div class="cuerpo__compras">
-        <a href="./../Pages/Tienda.html">
+          </div>
+        </div>
+      </nav>
+      <section>
+        <h1 id="tituloPag" class="h2 text-center ">Tienda</h1>
+      </section>
+      
+   </nav>
+ 
+   <div class="cuerpo__compras">
+    <a href="./../Pages/Tienda.html">
         <img id="logoCompras"  src="./../imagenes/carrito de compras.png" alt="compras" title="compras">
         </a>
     </div>
+<main class="container-fluid">
+  <h2 class="text-center">Indumentaria</h2>
+ <div class="row">
+  <div class="card" style="width: 18rem;">
+    <img src="../imagenes/camiseta.jpeg" class="card-img-top" alt="camiseta">
+    <div class="card-body">
+      <p class="card-text">Camiseta Talle L </p>
+      <p class="card-text">$3000  -20%OFF </p>
+      <button type="button" class="btn btn-secondary btn-dark">Comprar</button>
+    </div>
+  </div>
+    
+    <div class="card" style="width: 18rem;">
+      <img src="../imagenes/short.webp" class="card-img-top" alt="short">
+      <div class="card-body">
+        <p class="card-text">Short Talle L</p>
+        <p class="card-text">$2500  -20%OFF </p>
+        <button type="button" class="btn btn-secondary btn-dark text-end">Comprar</button>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../imagenes/buzo.png" class="card-img-top" alt="buzo">
+      <div class="card-body">
+        <p class="card-text">Buzo Talle L</p>
+        <p class="card-text">$3200  -20%OFF </p>
+        <button type="button" class="btn btn-secondary btn-dark">Comprar</button>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../imagenes//zapas.webp" class="card-img-top" alt="zapatillas">
+      <div class="card-body">
+        <p class="card-text">Zapatillas</p>
+        <p class="card-text">$4500  -20%OFF </p>
+        <button type="button" class="btn btn-secondary btn-dark">Comprar</button>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../imagenes//medias.webp" class="card-img-top" alt="medias">
+      <div class="card-body">
+        <p class="card-text">Medias</p>
+        <p class="card-text">$1000  -20%OFF </p>
+        <button type="button" class="btn btn-secondary btn-dark">Comprar</button>
+      </div>
 
-    <section class="compras4">
-      <table class="cuerpo__tablas" border="solid" cellpadding="10px" cellspacing="10px">
-           <tr>
-               <td id="degrade">Indumentaria</td>
-               <td id="degrade">Talle</td>
-               <td id="degrade">Precio</td>
-               <td id="degrade">Promocion en efectivo</td>   
-               <td id="degrade">Foto</td>         
-           </tr>
-           <tr>
-               <td>Camisetas</td>
-               <td>S</td>
-               <td>$2000</td>
-               <td>10% OFF</td>
-               <td><img id="imgTienda" src="../imagenes/camiseta.jpeg" alt="camiseta" title="camiseta"></td>
-           </tr>
-           <tr>      
-                <td>Camisetas</td>
-                <td>M</td>
-                <td>$2500</td>
-                <td>10% OFF</td>
-                <td><img id="imgTienda" src="../imagenes/camiseta.jpeg" alt="camiseta" title="camiseta"></td>
-            </tr>
-                <td>Camisetas</td>
-                <td>L</td>
-                <td>$3000</td>
-                <td>10% OFF</td>
-                <td><img id="imgTienda" src="../imagenes/camiseta.jpeg" alt="camiseta" title="camiseta"></td>
-            <tr>
-                <td>Short</td>
-                <td>S</td>
-                <td>$1500</td>
-                <td>10% OFF</td>
-                <td><img id="imgTienda" src="../imagenes/short.webp" alt="short" title="short"></td>
-            </tr>
-            <tr>
-                <td>Short</td>
-                <td>M</td>
-                <td>$1500</td>
-                <td>10% OFF</td>
-                <td><img id="imgTienda" src="../imagenes/short.webp" alt="short" title="short"></td>
-            </tr>
-            <tr>
-                <td>Short</td>
-                <td>L</td>
-                <td>$1500</td>
-                <td>10% OFF</td>
-                <td><img id="imgTienda" src="../imagenes/short.webp" alt="short"  title="short"></td>
-            </tr>
-       </table>
-     </section>
-     <hr>
-     
-     <section class="entradas4">
-        <H3>Entradas</H3>
-         <table class="cuerpo__tablas" border="solid" cellpadding="10px" cellspacing="10px">
-             <tr>
-                 <td id="degrade">Sector</td>
-                 <td id="degrade">Precio</td>
-                 <td id="degrade">Promocion en efectivo</td> 
-                 <td id="degrade">Foto</td>               
-             </tr>
-             <tr>
-                 <td>Platea</td>
-                 <td>$2500</td>
-                 <td>5% OFF</td>
-                 <td><img id="imgTienda" src="./../imagenes/entrada.png" alt="entrada" title="entrada"></td>
-             </tr>
-             <tr>
-                <td>Palco</td>
-                <td>$4000</td>
-                <td>5% OFF</td>
-                <td><img id="imgTienda" src="./../imagenes/entrada.png" alt="entrada" title="entrada"></td>
-            </tr>
-            <tr>
-                <td>Popular</td>
-                <td>$1500</td>
-                <td>5% OFF</td>
-                <td><img id="imgTienda" src="./../imagenes/entrada.png" alt="entrada" title="entrada"></td>
-            </tr>
-         </table>
-     </section>    
-     <footer class="pie">
-        <ul class="pie__listas">        
-            <li><a  ref="https://www.instagram.com/amarula.fc/?hl=es" target="_blank">Instagram</a></li>
-            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/?lang=es/" target="_blank">Twitter</a></li> 
-        </ul>
+  </div>
+ </main>
+    <section class="container-fluid">
+      <h2 class="text-center" >Entradas / Socios</h2>
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/entrada.png" class="card-img-top" alt="Popular">
+          <div class="card-body">
+            <p class="card-text">Popular</p>
+            <p class="card-text">$1500  -15%OFF</p>
+            <button type="button" class="btn btn-secondary btn-dark">Comprar</button>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/entrada.png" class="card-img-top" alt="Platea">
+          <div class="card-body">
+            <p class="card-text">Platea</p>
+            <p class="card-text">$1800  -15%OFF</p>
+            <button type="button" class="btn btn-secondary btn-dark">Comprar</button>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/entrada.png" class="card-img-top" alt="Palco">
+          <div class="card-body">
+            <p class="card-text">Palco</p>
+            <p class="card-text">$3000  -15%OFF</p>
+            <button type="button" class="btn btn-secondary btn-dark">Comprar</button>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/estadio.jpg" class="card-img-top" alt="sOCIO">
+          <div class="card-body">
+            <p class="card-text">Hacete Socio</p>
+            <p class="card-text">$2000xMeS  -15%OFF</p>
+            <button type="button" class="btn btn-secondary btn-dark">Comprar</button>
+          </div>
+        </div>        
+      </div>
+    </section>  
+
+    <footer>
+      <nav id="navegador" class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://www.instagram.com/amarula.fc/?hl=es"target="_blank">Instagram</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com" target="_blank">Facebook</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://twitter.com/?lang=es/" target="_blank">Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
     </footer>
 
-</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
 
 
