@@ -4,6 +4,8 @@
     font-family: 'Open Sans', sans-serif;
     
 }
+
+
 .logo{
     width: 100px;
 }
@@ -480,128 +482,6 @@ p{
     
 }
   
-@media screen and (max-width: 648px) {
-    .cuerpo__grid{
-  display: flex;
-  flex-direction: column;
-             
-}        
-
-    .cabeza{
-          
-        padding: 10px;
-        height: 150px;
-        
-        
-    
-    }
-    .noticias{
-        border: 02px solid #ffad33;
-        width: auto;
-        
-    }
-    .tablaPosiciones{
-        border: 02px solid #ffad33;
-    }
-    .nuestraTienda{
-        border: 02px solid #ffad33;
-    }
-    .cuerpo__compras{
-        position: fixed;
-        top: 200px;
-        right: 0px;
-                
-    }
-    #logoCompras{
-        width: 30px;
-    }
-        
-    
-}
-    
-
-
-
-@media screen and (max-width: 648px) {
-    .cuerpo__grid2{
-        display: flex;
-        flex-direction: column;
-        height: auto
-        
-    }
-    .fotoHistorias2{
-        padding-left: 15px;
-    }
-    
-    .cabeza2{
-        
-        justify-content: center;
-        padding: 10px;
-                 
-    
-    }
-    .cuerpo__compras{
-        position: fixed;
-        top: 200px;
-        right: 0px;
-                
-    }
-    #logoCompras{
-        width: 30px;
-    }
-    
-   
-}
-
-@media screen and (max-width: 648px) {
-    .cuerpo__grid3{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .cabeza3{
-        padding: 10px;
-    }
-    .plantel3{
-        background-size: 700px;
-        padding-left: 50px;
-        }
-.plantelCostado{
-font-size: center; 
-background-position: center;   
-background-size: 300px;
-}
-#parrafo{
-    padding-left: 280px;
-    padding-top: 50px;
-    width: 200px;
-    font-size: 20px;
-}
-#frasePlantel{
-    padding-left: 280px;
-    text-align: center;
-    
-
-}
-}
-
-@media screen and (max-width: 648px){
-    .cuerpo__grid4{
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
-@media screen and (max-width: 648px) {
-    .cuerpo__grid5{
-        display: flex;
-        flex-direction: column;
-    }
-.formulario{
-    width: auto;
-}
-    
- }   
 
     
 
